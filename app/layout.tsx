@@ -16,7 +16,7 @@ const rubikFont = Rubik_Wet_Paint({
 });
 
 const disneyFont = localFont({
-  src: './VNI-Disney Normal.ttf',
+  src: './VNI-Disney.ttf',
   variable: '--disney-font',
 });
 

@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         primary: '#186EF0',
-        secondary: '#528DFF',
+        secondary: '#FFF9C2',
       },
       fontFamily: {
         rubik: 'var(--rubik-font)',
@@ -21,6 +21,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-multi')],
 };
 export default config;
