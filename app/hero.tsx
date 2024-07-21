@@ -60,8 +60,8 @@ export default function Hero() {
               <a href={process.env.NEXT_PUBLIC_TELE_URL} target='_tele'>
                 <img src='/tele.png' alt='' />
               </a>
-              <a href={process.env.NEXT_PUBLIC_DEX_URL} target='_dex'>
-                <img src='/dex.png' alt='' />
+              <a href={process.env.NEXT_PUBLIC_DEXS_URL} target='_dexs'>
+                <img src='/dexs.png' alt='' />
               </a>
             </div>
           </header>
