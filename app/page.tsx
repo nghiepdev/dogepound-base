@@ -50,7 +50,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='custom-gradient'>
+      <div className='custom-gradient pb-10'>
         <div className='mt-10 flex justify-center lg:mt-20'>
           <Image
             src={paperImg}
@@ -62,6 +62,24 @@ export default function Home() {
         <div className='mt-10 px-5 lg:px-10 2xl:px-12'>
           <Tokenomics />
         </div>
+
+        <div
+          className={clsx(
+            'relative',
+            'mt-10 lg:mt-10',
+            '[--size:80px] sm:[--size:120px] md:[--size:170px] lg:[--size:200px] xl:[--size:250px] 2xl:[--size:300px]',
+            '*:multi-[text-center;font-rubik;uppercase;[font-size:--size]]'
+          )}
+        >
+          <h1 className='relative z-10 text-primary'>$POUND</h1>
+          <h1 className='absolute left-0 top-2 w-full text-black'>$POUND</h1>
+        </div>
+
+        <footer className='mt-10 flex justify-center'>
+          <div className='rounded-[6px] border border-black bg-primary px-4 py-3 text-center font-rubik text-[20px] uppercase text-white'>
+            Copyright © 2024 $POUND
+          </div>
+        </footer>
       </div>
     </main>
   );
