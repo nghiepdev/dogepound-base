@@ -2,6 +2,7 @@ import Image from 'next/image';
 
 import Hero from './hero';
 import Marquee from './marquee';
+import Tokenomics from './tokeomics';
 
 import slide1 from '@/public/slide-1.png';
 import slide2 from '@/public/slide-2.png';
@@ -49,12 +50,18 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='mt-10 flex justify-center lg:mt-20'>
-        <Image
-          src={paperImg}
-          alt=''
-          className='min-w-[850px] object-cover object-right'
-        />
+      <div className='custom-gradient'>
+        <div className='mt-10 flex justify-center lg:mt-20'>
+          <Image
+            src={paperImg}
+            alt=''
+            className='min-w-[850px] object-cover object-right'
+          />
+        </div>
+
+        <div className='mt-10 px-5 lg:px-10 2xl:px-12'>
+          <Tokenomics />
+        </div>
       </div>
     </main>
   );
