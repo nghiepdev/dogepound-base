@@ -32,7 +32,7 @@ export default function Hero() {
           <header
             className={clsx(
               'flex items-center justify-between rounded-full border-[6px] border-b-8 border-black bg-[#528DFF] text-white',
-              'px-5 py-1'
+              'px-3 py-1 sm:px-5'
             )}
           >
             <div className='flex items-center gap-x-2'>
